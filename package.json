@@ -1,0 +1,19 @@
+{
+  "name": "tsprg",
+  "version": "1.0.0",
+  "description": "typescript test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run \"/dev:/\"",
+    "dev:tsc": "tsc --watch --preserveWatchOutput",
+    "dev:node": "node --enable-source-maps --watch dist/index.js"
+  },
+  "keywords": [],
+  "author": "casak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
+}
